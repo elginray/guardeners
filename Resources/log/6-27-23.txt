@@ -1,0 +1,207 @@
+Microsoft Windows [Version 10.0.19045.3086]
+(c) Microsoft Corporation. All rights reserved.
+
+C:\Users\user>cd C:\Users\user\OneDrive\Desktop\guardeners
+
+C:\Users\user\OneDrive\Desktop\guardeners>git clone https://github.com/elginray/guardeners.git
+Cloning into 'guardeners'...
+remote: Enumerating objects: 13, done.
+remote: Counting objects: 100% (13/13), done.
+remote: Compressing objects: 100% (9/9), done.
+remote: Total 13 (delta 0), reused 13 (delta 0), pack-reused 0
+Receiving objects: 100% (13/13), 855.40 KiB | 1.21 MiB/s, done.
+
+C:\Users\user\OneDrive\Desktop\guardeners>git add .
+fatal: not a git repository (or any of the parent directories): .git
+
+C:\Users\user\OneDrive\Desktop\guardeners>git commit -m "Thesis link added"
+fatal: not a git repository (or any of the parent directories): .git
+
+C:\Users\user\OneDrive\Desktop\guardeners>git status
+fatal: not a git repository (or any of the parent directories): .git
+
+C:\Users\user\OneDrive\Desktop\guardeners>ls
+'ls' is not recognized as an internal or external command,
+operable program or batch file.
+
+C:\Users\user\OneDrive\Desktop\guardeners>tree
+Folder PATH listing
+Volume serial number is B851-874F
+C:.
+└───guardeners
+    ├───Resources
+    └───v0.0.1
+        └───Arduino
+            └───sketch_jun27a
+
+C:\Users\user\OneDrive\Desktop\guardeners>
+C:\Users\user\OneDrive\Desktop\guardeners>cd ..
+
+C:\Users\user\OneDrive\Desktop>cd guardeners
+
+C:\Users\user\OneDrive\Desktop\guardeners>cd guardeners
+
+C:\Users\user\OneDrive\Desktop\guardeners\guardeners>git add .
+
+C:\Users\user\OneDrive\Desktop\guardeners\guardeners>git commit -m "add thesis file"
+Author identity unknown
+
+*** Please tell me who you are.
+
+Run
+
+  git config --global user.email "you@example.com"
+  git config --global user.name "Your Name"
+
+to set your account's default identity.
+Omit --global to set the identity only in this repository.
+
+fatal: unable to auto-detect email address (got 'user@DESKTOP-VOA8A5M.(none)')
+
+C:\Users\user\OneDrive\Desktop\guardeners\guardeners>git commit -m "add thesis file" -f
+error: unknown switch `f'
+usage: git commit [-a | --interactive | --patch] [-s] [-v] [-u<mode>] [--amend]
+                  [--dry-run] [(-c | -C | --squash) <commit> | --fixup [(amend|reword):]<commit>)]
+                  [-F <file> | -m <msg>] [--reset-author] [--allow-empty]
+                  [--allow-empty-message] [--no-verify] [-e] [--author=<author>]
+                  [--date=<date>] [--cleanup=<mode>] [--[no-]status]
+                  [-i | -o] [--pathspec-from-file=<file> [--pathspec-file-nul]]
+                  [(--trailer <token>[(=|:)<value>])...] [-S[<keyid>]]
+                  [--] [<pathspec>...]
+
+    -q, --quiet           suppress summary after successful commit
+    -v, --verbose         show diff in commit message template
+
+Commit message options
+    -F, --file <file>     read message from file
+    --author <author>     override author for commit
+    --date <date>         override date for commit
+    -m, --message <message>
+                          commit message
+    -c, --reedit-message <commit>
+                          reuse and edit message from specified commit
+    -C, --reuse-message <commit>
+                          reuse message from specified commit
+    --fixup [(amend|reword):]commit
+                          use autosquash formatted message to fixup or amend/reword specified commit
+    --squash <commit>     use autosquash formatted message to squash specified commit
+    --reset-author        the commit is authored by me now (used with -C/-c/--amend)
+    --trailer <trailer>   add custom trailer(s)
+    -s, --signoff         add a Signed-off-by trailer
+    -t, --template <file>
+                          use specified template file
+    -e, --edit            force edit of commit
+    --cleanup <mode>      how to strip spaces and #comments from message
+    --status              include status in commit message template
+    -S, --gpg-sign[=<key-id>]
+                          GPG sign commit
+
+Commit contents options
+    -a, --all             commit all changed files
+    -i, --include         add specified files to index for commit
+    --interactive         interactively add files
+    -p, --patch           interactively add changes
+    -o, --only            commit only specified files
+    -n, --no-verify       bypass pre-commit and commit-msg hooks
+    --dry-run             show what would be committed
+    --short               show status concisely
+    --branch              show branch information
+    --ahead-behind        compute full ahead/behind values
+    --porcelain           machine-readable output
+    --long                show status in long format (default)
+    -z, --null            terminate entries with NUL
+    --amend               amend previous commit
+    --no-post-rewrite     bypass post-rewrite hook
+    -u, --untracked-files[=<mode>]
+                          show untracked files, optional modes: all, normal, no. (Default: all)
+    --pathspec-from-file <file>
+                          read pathspec from file
+    --pathspec-file-nul   with --pathspec-from-file, pathspec elements are separated with NUL character
+
+
+C:\Users\user\OneDrive\Desktop\guardeners\guardeners>git config user.name "Jawrence Casupang"
+
+C:\Users\user\OneDrive\Desktop\guardeners\guardeners>git config user.email "jawrce@gmail.com"
+
+C:\Users\user\OneDrive\Desktop\guardeners\guardeners>cat .git/config
+'cat' is not recognized as an internal or external command,
+operable program or batch file.
+
+C:\Users\user\OneDrive\Desktop\guardeners\guardeners>git commit -m "add thesis file" -f
+error: unknown switch `f'
+usage: git commit [-a | --interactive | --patch] [-s] [-v] [-u<mode>] [--amend]
+                  [--dry-run] [(-c | -C | --squash) <commit> | --fixup [(amend|reword):]<commit>)]
+                  [-F <file> | -m <msg>] [--reset-author] [--allow-empty]
+                  [--allow-empty-message] [--no-verify] [-e] [--author=<author>]
+                  [--date=<date>] [--cleanup=<mode>] [--[no-]status]
+                  [-i | -o] [--pathspec-from-file=<file> [--pathspec-file-nul]]
+                  [(--trailer <token>[(=|:)<value>])...] [-S[<keyid>]]
+                  [--] [<pathspec>...]
+
+    -q, --quiet           suppress summary after successful commit
+    -v, --verbose         show diff in commit message template
+
+Commit message options
+    -F, --file <file>     read message from file
+    --author <author>     override author for commit
+    --date <date>         override date for commit
+    -m, --message <message>
+                          commit message
+    -c, --reedit-message <commit>
+                          reuse and edit message from specified commit
+    -C, --reuse-message <commit>
+                          reuse message from specified commit
+    --fixup [(amend|reword):]commit
+                          use autosquash formatted message to fixup or amend/reword specified commit
+    --squash <commit>     use autosquash formatted message to squash specified commit
+    --reset-author        the commit is authored by me now (used with -C/-c/--amend)
+    --trailer <trailer>   add custom trailer(s)
+    -s, --signoff         add a Signed-off-by trailer
+    -t, --template <file>
+                          use specified template file
+    -e, --edit            force edit of commit
+    --cleanup <mode>      how to strip spaces and #comments from message
+    --status              include status in commit message template
+    -S, --gpg-sign[=<key-id>]
+                          GPG sign commit
+
+Commit contents options
+    -a, --all             commit all changed files
+    -i, --include         add specified files to index for commit
+    --interactive         interactively add files
+    -p, --patch           interactively add changes
+    -o, --only            commit only specified files
+    -n, --no-verify       bypass pre-commit and commit-msg hooks
+    --dry-run             show what would be committed
+    --short               show status concisely
+    --branch              show branch information
+    --ahead-behind        compute full ahead/behind values
+    --porcelain           machine-readable output
+    --long                show status in long format (default)
+    -z, --null            terminate entries with NUL
+    --amend               amend previous commit
+    --no-post-rewrite     bypass post-rewrite hook
+    -u, --untracked-files[=<mode>]
+                          show untracked files, optional modes: all, normal, no. (Default: all)
+    --pathspec-from-file <file>
+                          read pathspec from file
+    --pathspec-file-nul   with --pathspec-from-file, pathspec elements are separated with NUL character
+
+
+C:\Users\user\OneDrive\Desktop\guardeners\guardeners>git commit -m "add thesis file"
+[main 3bc8f8e] add thesis file
+ 1 file changed, 1 insertion(+)
+ create mode 100644 Resources/thesis link.txt
+
+C:\Users\user\OneDrive\Desktop\guardeners\guardeners>git push origin main
+info: please complete authentication in your browser...
+Enumerating objects: 6, done.
+Counting objects: 100% (6/6), done.
+Delta compression using up to 4 threads
+Compressing objects: 100% (4/4), done.
+Writing objects: 100% (4/4), 510 bytes | 510.00 KiB/s, done.
+Total 4 (delta 0), reused 0 (delta 0), pack-reused 0
+To https://github.com/elginray/guardeners.git
+   099d447..3bc8f8e  main -> main
+
+C:\Users\user\OneDrive\Desktop\guardeners\guardeners>
